@@ -1,38 +1,81 @@
-#new-div{
-    margin-top:20px;
-    height:50px;
-    width:50px;
+#new-div {
+
+    height: 50px;
+    width: 50px;
     border-radius: 6px;
-    display:inline-flex;
-    margin-right:15px;
+    display: inline-flex;
+
     cursor: pointer;
 }
 
-#div_btn{
+#div_btn {
     height: 40px;
-    width:40px;
-    margin-top:40px;
-    
+    width: 40px;
+    margin-top: 40px;
+
 
 }
-#button
-{
-    margin-left:105px;
+
+#button {
+    margin-left: 105px;
 }
 
-#img
-{
-    height:40px;
+#img {
+    height: 40px;
 }
-.color-picker{
- height: 50px;
- width:50px;   
+
+.color-picker {
+    height: 50px;
+    width: 50px;
 }
-.chrome-picker{
-    margin-left:54px;
+
+.chrome-picker {
+    margin-left: 54px;
 }
-.close-div{
+
+.close-div {
     margin-left: 41px;
     margin-bottom: 0px;
     margin-top: 55px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.close {
+    width: 18px;
+    height: 18px;
+    background-color: rgb(228, 228, 228);
+    color: white;
+    text-align: right;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: -10px;
+    margin-right: -40px;
+}
+
+.close-item {
+    margin-top: -3px;
+}
+
+.close:hover {
+    cursor: pointer;
+    background-color: rgb(214, 214, 214);
+
 }
